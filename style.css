@@ -1,0 +1,63 @@
+/*selector{
+	property:value;
+}*/
+*{
+	text-align: right;
+}
+body{
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+}
+
+h2 + p:hover{
+	color: #AA9E39;
+	text-align: center;
+	border: 5px solid rgba(50,108,90,0.5);
+	/*rgba gives the red ,green,blue,alpha value where alpha can be from 0 to 1*/
+	cursor: pointer;
+}
+img{
+	float: left;
+}
+footer{
+	clear: both;
+	text-align: center;
+}
+
+p{
+	text-decoration: underline;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 200%;
+	/*if font family dont have times new roman in their computer, it prints georgia*/
+	/*font-family: "Times New Roman",Georgia;*/
+	font-family: 'Dancing Script', cursive;
+	color:pink !imporant;
+}
+ p{
+ 	color: green;
+ }
+
+li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+.webtext:last-child{
+	border:5px dashed green;
+}
+
+.active{
+	color:red;
+}
+
+#div1{
+	background:rgb(80,45,90,0.9);
+}
+
+#div2{
+	background:rgb(79,20,40,0.9);
+}
